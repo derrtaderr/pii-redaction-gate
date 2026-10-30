@@ -1,5 +1,4 @@
-# redaction-gate
-
+# pii-redaction-gate
 Redaction that refuses the write when it misses.
 
 Zero dependencies. Node 20 or newer. A library, a middleware wrapper, and a CLI.
@@ -36,8 +35,8 @@ npm install redaction-gate
 Or clone it and run the tests, which need no network and no install step.
 
 ```bash
-git clone https://github.com/derrtaderr/redaction-gate.git
-cd redaction-gate
+git clone https://github.com/derrtaderr/pii-redaction-gate.git
+cd pii-redaction-gate
 npm test
 node example/guard-an-llm-call.js
 ```
